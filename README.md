@@ -7,7 +7,7 @@ Please add below configurations in your domain service's bootstrap.yml
 spring
   cloud:
      config:
-       #uri: http://localhost:8081
+       #uri: http://localhost:8888
        discovery:
          enabled: true
          service-id: configuration-service
